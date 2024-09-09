@@ -110,7 +110,3 @@ You can manage MinIO via the web console at `http://localhost:9001`, where you c
 ### Conclusion
 
 You now have a MinIO server running inside a Docker container. You can interact with it via its API and web console, and use the `minio` Python library to automate interactions and manage your object storage.
-
----
-
-Feel free to copy and paste this into a `.md` file for your documentation.
