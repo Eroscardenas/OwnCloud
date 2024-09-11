@@ -15,41 +15,8 @@ docker pull maildev/maildev
 ```
 ## **Step 2: Create Dockerfile**
 If you want more control over the setup or need a custom version, you can create your own Dockerfile. This step is optional if you're fine with using the default image.
-```dockerfile
-# Base image with Node.js
-FROM node:18-alpine
 
-# Set environment to production
-ENV NODE_ENV production
-
-# Set working directory
-WORKDIR /root
-
-# Copy and install dependencies
-COPY package*.json ./
-RUN npm install \
-  && npm prune \
-  && npm cache clean --force
-
-# Set the user and working directory for Maildev
-USER node
-WORKDIR /home/node
-
-# Copy source files and set correct permissions
-COPY --chown=node:node . /home/node
-COPY --chown=node:node --from=build /root/node_modules /home/node/node_modules
-
-# Expose Maildev's web and SMTP ports
-EXPOSE 1080 1025
-
-# Environment variables for Maildev
-ENV MAILDEV_WEB_PORT 1080
-ENV MAILDEV_SMTP_PORT 1025
-
-# Command to start Maildev
-ENTRYPOINT ["bin/maildev"]
-
-```
+**Example:** [Dockerfile](https://github.com/Eroscardenas/OwnCloud/blob/main/Dependences/Communication/Dockerfile).
 
 ## **Step 3: Run the Maildev Container**
 Now, run the container with the following command. This will bind the Maildev web interface to port 1080 and the SMTP server to port 1025 on your local machine.
