@@ -18,8 +18,8 @@ Due to the variety of servies and suppliers to them, this project arises as our 
 
 ### **Services**
  
-- [Monitoring](Dependendes/Monitoring) (Esaú Cardenas)
-- Communication (Esaú Lozano)
+- [Monitoring](Dependences/Monitoring) (Esaú Cardenas)
+- [Communication](Dependences/Communcation) (Esaú Lozano)
 - [Serverless](Dependences/serverless) (Andrés Hernández)
 - [DataBase](Dependences/Databases%20&%20Storage/) (Nicolás Florés)
 - [ObjectsStorage](Dependences/Databases%20&%20Storage/) (Eliseo Sosa/ Nicolás Flores)
