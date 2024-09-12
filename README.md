@@ -1,10 +1,10 @@
 # Collect Services to use in your personal 
-## Instructions
+### Instructions
 **Collect: 2 options per service, Documentation Link and DockerHub Link**
 
 *For each get 1 (AWS && 1 (Azure || GCP),Open)*
 
-## **Services (AWS && (Azure || GCP), Open)**
+### **Services (AWS && (Azure || GCP), Open)**
 
 
 
