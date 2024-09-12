@@ -29,9 +29,6 @@ Due to the variety of servies and suppliers to them, this project arises as our 
 - [Proxying](Dependences/Proxying/) *(Esaú Cárdenas)*
 
 
-**Collect: 2 options per service, Documentation Link and DockerHub Link**
-
-*For each get 1 (AWS && 1 (Azure || GCP),Open)*
 
 ## **Services (AWS && (Azure || GCP), Open)**
 
