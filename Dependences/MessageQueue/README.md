@@ -1,3 +1,4 @@
+![ReferenceImage](/images/✉ Message_Queue 📥.png)
 # Message queue/broker
 ### how to set up a message broker using RabbitMQ and docker
 

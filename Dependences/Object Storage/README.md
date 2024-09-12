@@ -1,3 +1,4 @@
+![ReferenceImage](/images/▪Objects_Storage 🗃.png)
 # MinIO Setup Guide with Docker
 
 This guide will help you set up **MinIO**, a high-performance, distributed object storage service, using **Docker**.

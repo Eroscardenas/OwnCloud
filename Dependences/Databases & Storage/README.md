@@ -1,3 +1,4 @@
+![ReferenceImage](/images/🗄DataBases_&_Storage 📁.png)
 # Setting Up MongoDB Server Using Docker
 
 This guide will walk you through setting up a **MongoDB** server using **Docker** and **Python** with the **pymongo** library.

@@ -24,7 +24,7 @@ Due to the variety of servies and suppliers to them, this project arises as our 
 - [DataBase](Dependences/Databases%20&%20Storage/) (Nicolás Florés)
 - [ObjectsStorage](Dependences/Databases%20&%20Storage/) (Eliseo Sosa/ Nicolás Flores)
 - Authentication (Esaú Lozano)
-- Credential Management (Eliseo Sosa)
+- [CredentialManagmentService](Dependences/Credential%20Management%20Service/) (Eliseo Sosa)
 - [Event/MessageQueues](Dependences/MessageQueue/) *(Andrés Hernández)*
 - [Proxying](Dependences/Proxying/) *(Esaú Cárdenas)*
 
