@@ -19,11 +19,11 @@ Due to the variety of servies and suppliers to them, this project arises as our 
 ### **Services**
  
 - [Monitoring](Dependences/Monitoring) (Esaú Cardenas)
-- [Communication](Dependences/Communcation) (Esaú Lozano)
+- [Communication](Dependences/Communication) (Esaú Lozano)
 - [Serverless](Dependences/serverless) (Andrés Hernández)
 - [DataBase](Dependences/Databases%20&%20Storage/) (Nicolás Florés)
 - [ObjectsStorage](Dependences/Databases%20&%20Storage/) (Eliseo Sosa/ Nicolás Flores)
-- Authentication (Esaú Lozano)
+- [Authentication](Dependences/Authentication) (Esaú Lozano)
 - [CredentialManagmentService](Dependences/Credential%20Management%20Service/) (Eliseo Sosa)
 - [Event/MessageQueues](Dependences/MessageQueue/) *(Andrés Hernández)*
 - [Proxying](Dependences/Proxying/) *(Esaú Cárdenas)*
