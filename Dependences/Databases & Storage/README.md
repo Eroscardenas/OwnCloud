@@ -1,14 +1,16 @@
+# Welcome to the area Cloud Computing with docker :whale:
+
 ![ReferenceImage](/images/🗄DataBases_&_Storage 📁.png)
 # Setting Up MongoDB Server Using Docker
 
-This guide will walk you through setting up a **MongoDB** server using **Docker** and **Python** with the **pymongo** library.
+This guide will walk you through setting up a [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/) server using [Docker](https://www.docker.com) and **Python** with the **pymongo** library.
 
 ### Technologies Used:
-- Docker
-- MongoDB
-- Python and the Pymongo Library
+- [Docker](https://www.docker.com)
+- [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/)
+- **Python and the Pymongo Library**
 
-Assuming you already have Docker installed. We will use one of the latest MongoDB Docker container versions. If you need to check out other versions, you can find them on the official DockerHub page: [MongoDB on DockerHub](https://hub.docker.com/_/mongo). This project uses version `6.0`.
+Assuming you already have Docker installed. We will use one of the latest [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/) and [Docker](https://www.docker.com) container versions. If you need to check out other versions, you can find them on the official [DockerHub](https://hub.docker.com) page: [MongoDB on DockerHub](https://hub.docker.com/_/mongo). This project uses version `6.0`.
 
 ### Step 1: Docker Setup
 
@@ -28,7 +30,7 @@ EXPOSE 27017
 VOLUME /data/db
 ```
 
-This Dockerfile sets up a MongoDB container with a root user (`admin`) and password (`password`). If these values are not specified, MongoDB will use default settings. It is a good practice to change these values for security reasons.
+This *Dockerfile* sets up a [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/)container with a root user (`admin`) and password (`password`). If these values are not specified, [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/) will use default settings. It is a good practice to change these values for security reasons.
 
 2. **Build and Run the Docker Container**
 
@@ -42,7 +44,7 @@ docker build -t myMongoImage .
 docker run -d --name mongodb-container -p 27017:27017 myMongoImage
 ```
 
-After running these commands, your MongoDB server will be running on `localhost:27017`.
+After running these commands, your [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/)server will be running on `localhost:27017`.
 
 ### Step 2: Setting Up Python with PyMongo
 
@@ -66,7 +68,7 @@ python -m pip install pymongo --upgrade
 
 2. **Run Example Scripts**
 
-To test the connection to MongoDB, use the following Python script to insert and retrieve a document:
+To test the connection to [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/), use the following *Python* script to insert and retrieve a document:
 
 ```python
 from pymongo import MongoClient
@@ -91,7 +93,7 @@ print("Retrieved Document:", retrieved_document)
 ```
 
 This script:
-- Connects to the MongoDB server at `localhost:27017` using the credentials set up in the Dockerfile.
+- Connects to the [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/) server at `localhost:27017` using the credentials set up in the *Dockerfile*.
 - Inserts a document into the `test_collection`.
 - Retrieves and prints the document.
 
@@ -105,9 +107,9 @@ deactivate
 
 ### Step 4: MongoDB Management
 
-You can manage MongoDB using its command-line interface or a graphical tool such as [MongoDB Compass](https://www.mongodb.com/products/compass) to explore and manage your data.
+You can manage [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/)using its command-line interface or a graphical tool such as [MongoDB Compass](https://www.mongodb.com/products/compass) to explore and manage your data.
 
 ### Conclusion
 
-Congratulations! You now have a MongoDB server running inside a Docker container. You can connect to it from Python using the `pymongo` library and manage your database through `localhost:27017`.
+Congratulations! You now have a [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/) server running inside a [Docker](https://www.docker.com) container. You can connect to it from *Python* using the `pymongo` library and manage your database through `localhost:27017`.
 
