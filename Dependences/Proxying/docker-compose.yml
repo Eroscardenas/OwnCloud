@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nginx:
+    build: .
+    ports:
+      - "8080:80"  #  Maping the port 8080 to the host port 80 from container  
+    volumes:
+      - ./nginx-html:/usr/share/nginx/html  # Put files html in the container
+      - ./nginx-config/nginx.conf:/etc/nginx/nginx.conf  # Put the configuration from nginx in the container
